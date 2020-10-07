@@ -28,8 +28,8 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <hazelcast.version>3.11.2</hazelcast.version>
-        <aws.sdk.version>1.11.527</aws.sdk.version>
+        <hazelcast.version>4.0.2</hazelcast.version>
+        <aws.sdk.version>1.11.875</aws.sdk.version>
     </properties>
 
     <dependencies>
@@ -45,6 +45,12 @@
             <artifactId>aws-java-sdk-ecs</artifactId>
             <version>${aws.sdk.version}</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.amazonaws</groupId>-->
+<!--            <artifactId>aws-java-sdk</artifactId>-->
+<!--            <version>${aws.sdk.version}</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>junit</groupId>
